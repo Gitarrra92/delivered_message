@@ -1,0 +1,27 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #8be;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    text-align: center;
+    padding: 2rem;
+    border-radius: 7px;
+    background: #fff;
+    flex: 0 0 80%;
+}
+
+#sentBtn, #messageIn{
+    padding: 12px 8px;
+}
+
+#messageIn {
+outline: none;
+}
+
+#sentBtn{
+    cursor: pointer;
+}
